@@ -1,0 +1,81 @@
+.header_section img{
+    height: 50px;
+}
+.navbar-light .navbar-toggler {
+    color: black;
+    border-color: #03010100;
+}
+.navbar-toggler {
+   
+    background-color: #fff;
+    border: 1px solid ;
+    
+}
+.navbar-toggler-icon {
+    color: black;
+}
+.banner{
+    background-image: url('img/bkg-img3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:70vh ;
+    align-content: center;
+}
+.banner .headdind .text .btn{
+    margin-top: 20px;
+}
+.banner .headdind .text .btn a{
+    background-color: darkorange;
+    padding: 10px 20px;
+    color: aliceblue;
+}
+.banner .headdind .text .btn a:hover{
+    color: brown;
+    background-color: goldenrod;
+}
+.item-section .card-img img{
+height: 200px;
+}
+.gellary .gellary img{
+    height: 200px;
+}
+.feedback .reviwe img{
+    width: 150px;
+}
+.feedback .reviwe{
+    display: flex;
+    gap: 20px;
+    border: 1px solid;
+    height: 150px;
+    border-radius: 5px;
+}
+.item-section .card-pera .price{
+    display: flex;
+    gap: 30px;
+}
+.item-section .card-pera .price .icon i{
+    color: chocolate;
+}
+/* about page end */
+.name{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.name input{
+  width: 100%;
+}
+ .phone input{
+    width: 100%;
+}
+.Subject input{
+    width: 100%;
+}
+.text textarea{
+    width: 100%;
+    resize:none
+}
+.adder ul{
+    list-style-type: none;
+}
